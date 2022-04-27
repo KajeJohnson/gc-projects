@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-    margin: 10px;
+    
     
 }
 
@@ -53,6 +53,9 @@ button {
 
     float: right;
 }
+.dots {
+    display: none;
+}
 .footer {
     position: fixed;
     left: 0;
@@ -72,16 +75,17 @@ button {
         width: 50%;
     }
     .navchirp {
-        float: left;
+        /* float: left; */
         margin-left: 0;
     }
     .navigation {
        display: flex;
        flex-direction: row; 
+       justify-content: space-between;
        padding: 0px;
        margin: 0px;
        align-items: center;
-       float: right;
+       /* float: right; */
        
         
     }
